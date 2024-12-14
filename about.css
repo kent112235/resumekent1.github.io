@@ -1,0 +1,90 @@
+/* About Section */
+.about {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+                  url('Image/portfolio/background.jpg');
+
+    height: 100vh;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .btn1 {
+    margin-right:80%;
+    padding: 1rem 2rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5rem;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .about h2 {
+    font-size: 3.5rem;
+    color: #d3cece;
+    margin-bottom: 6rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    margin: 0 auto 1rem;
+    line-height: 1.6;
+    color: #f0ecec;
+    text-align: justify;
+
+  }
+  
+
+  
+/* Skills & Tools Page */
+.skills {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.skill-category {
+  margin-bottom: 40px;
+}
+
+.skill-category h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-category li {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+.footer-container {
+  text-align: center;
+  padding: 10px;
+  background-color: #08031b;
+  color: #fff;
+}
