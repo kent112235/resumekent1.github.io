@@ -31,28 +31,6 @@
   });
   
 
-  document.querySelector('form').addEventListener('submit', async function (event) {
-    event.preventDefault();
-
-    const formData = new FormData(this);
-
-    try {
-        const response = await fetch(this.action, {
-            method: 'POST',
-            body: formData,
-        });
-
-        const result = await response.json();
-
-        if (result.status === 'success') {
-            showToast(result.message, 'success');
-        } else {
-            showToast(result.message, 'error');
-        }
-    } catch (error) {
-        showToast('An unexpected error occurred.', 'error');
-    }
-});
 
 function showToast(message) {
     console.log('showToast called with message:', message); // Debugging
