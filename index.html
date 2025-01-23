@@ -199,7 +199,10 @@
   <!-- Contact Form -->
 <div class="contact-form">
   <h4 class="form-title">Contact Form</h4>
-  <form class="form-container" name="contact" netlify id="contact-form" method="POST">
+  <form class="form-container" name="contact" method="POST" data-netlify="true" id="contact-form">
+    <!-- Hidden input for Netlify form handling -->
+    <input type="hidden" name="form-name" value="contact" />
+
     <div class="form-group">
       <label class="form-label" for="name">Your Name:</label>
       <input class="form-input" type="text" id="name" name="name" required placeholder="Enter your name">
@@ -216,8 +219,8 @@
       <button class="form-button" type="submit">Send Message</button>
     </div>
   </form>
-  
 </div>
+
 
 
   <!-- Google Map Embed -->
